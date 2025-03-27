@@ -1,7 +1,7 @@
 site_name: My Docs
 site_url: https://incognitondocs.com
 theme:
-  logo: assets/incognitonlogo-removebg-preview.png
+  logo: assets/logo/incognitonlogo-removebg-preview.png
   name: material
   palette:
     scheme: white
