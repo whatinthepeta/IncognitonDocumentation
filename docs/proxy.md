@@ -6,13 +6,13 @@ Incogniton's anti-detect browser offers powerful proxy management capabilities t
 
 
 ## Before Setting up your Proxies
-Creating a group for your proxies
+Create a group for your proxies for organizational purposes.
 
 From inside the Proxy Management tab,
 Click on the "Groups" option in the left sidebar →
 Click the "New Group" button in the top right corner of the screen →
 Give your group a descriptive name that reflects its purpose (e.g., "US Location" "Facebook Accounts" "Windows OS").
-Organizing your proxies into logical groups makes managing multiple profiles with different proxies much easier.  
+#### <span style="color: purple;">Organizing your proxies into logical groups makes managing multiple profiles with different proxies much easier.</span>
 
 ![Alt Text](assets/gifs/ScreenRecording2025-04-02190313-ezgif.com-video-to-gif-converter.gif)
 
@@ -31,7 +31,8 @@ Select the correct connection type that matches what your provider has supplied 
 
 ### 2. Naming Your Proxy
 
-Type a clear naming convention for your proxy to make it easier for you to distinguish between multiple proxies when your collection grows. While you can use any naming system, we recommend including key identifying information such as: location, associated profile, and/or operating system.
+Type a clear naming convention for your proxy to make it easier for you to distinguish between multiple proxies when your collection grows. 
+   #### <span style="color: purple;">While you can use any naming system, we recommend including key identifying information such as: location, associated profile, and/or operating system.</span>
 
 ![Alt Text](assets/gifs/ScreenRecording2025-04-02183058-ezgif.com-video-to-gif-converter.gif)
 
@@ -75,7 +76,8 @@ If your proxy provider has supplied a "Proxy Rotation API URL," paste it into th
 
 ### 9. Verify Your Proxy Configuration
  
-Click the "Check Proxy" button to run a connection test. The results will appear on the right side of the button showing your proxy's connection status. This is to verify that your proxy is functioning correctly. If the connection test fails, double-check your IP address, port number, username, and password entries for accuracy.
+Click the "Check Proxy" button to run a connection test. The results will appear on the right side of the button showing your proxy's connection status. 
+#### <span style="color: purple;">This is to verify that your proxy is functioning correctly. If the connection test fails, double-check your IP address, port number, username, and password entries for accuracy.</span>
  
 ![Alt Text](assets/gifs/Untitledvideo-MadewithClipchamp3-ezgif.com-video-to-gif-converter.gif)
 
