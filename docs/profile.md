@@ -2,60 +2,67 @@
 
 ## Overview
 
-Incogniton’s anti-detect browser lets you create customized profiles to manage your online identities securely and efficiently. This guide provides step-by-step instructions to help you set up a new profile that’s optimized for your specific needs. Make sure you’re logged in and have navigated to the "Profiles" tab from the main menu.
+Incogniton’s anti-detect browser lets you create profiles to manage your online identities securely. This guide gives you step-by-step instructions to set up a new profile that fits your needs. Make sure you’re logged in and have opened the **Profiles** tab from the main menu.
 
 ## Before Creating Your Profile
 
 Before diving in, ensure you have a clear idea of the profile’s purpose. Whether it's for managing multiple social media accounts, testing web applications, or any other activity, having a descriptive profile name and understanding the necessary settings will help you stay organized.
 
-### Step 1: Log in and Navigate to Profiles
+### Step 1: Navigate to Profiles
 
-- Open Incognition browser.
-- Click on the Profiles tab from the main menu.
+- Click on the **Profiles** tab from the left menu.
 
 ![Alt Text](assets/profile_gifs/Step1.gif)
 
-### Step 2: Create a New Profile
+### Step 2: Create a New Profile/
 
-- Click the "Create New Profile" button.
-- Enter a clear, descriptive name for your profile.
+- From the Profiles tab, click on the **New Profile** button.
 
 ![Alt Text](assets/profile_gifs/Step2.gif)
 
-### Step 3: Basic Configuration
+### Step 3: Enter a profile name
 
-- Timezone: Set this to match your IP by making sure the switch is switched on
+- Enter a name for your profile
 
 ![Alt Text](assets/profile_gifs/Step3.gif)
 
-### Step 4: Advanced Configuration
+### Step 4: Set Operating System
 
-- User Agent: Select or manually enter a user agent that matches your needs (desktop, mobile, or custom).
-- Cookies Management: Choose how cookies are handled (cleared on exit or persistent).
-- WebRTC: Configure this to disable or mask your real IP address.
-- Fingerprinting Protection: Enable fingerprinting protections to prevent unique identification.
+- **Windows User:** Choose the **Windows** option.
+- **Mac user:** Choose the **Mac OS** option.
+- **Linux User:** Choose the **Linux** option (Note: Linux is not the recommended option).
 
 ![Alt Text](assets/profile_gifs/Step4.gif)
 
-### Step 5: Proxy Settings
+### Step 5: Set Incognition verison
 
-- Select your proxy type (HTTP, SOCKS5).
-- Enter your proxy IP address, port, username, and password if required.
-- Click Test Proxy to ensure your settings are correct.
+- Click the drop-down menu. It should show the latest version by default.
+- If a newer version is available, select it.
 
 ![Alt Text](assets/profile_gifs/Step5.gif)
 
-### Step 6: Save and Launch
+### Step 6: Randomize your Footprints
 
-- After verifying your settings, click "Save".
-- Launch the profile to confirm everything is working as expected.
+- Click **Randomize Footprint** to change browser details.
+- This makes your digital fingerprint unique and harder to track.
 
 ![Alt Text](assets/profile_gifs/Step6.gif)
 
-### Step 7: Save and Launch
+### Step 7: Create and Select Group
+
+- Click **Add Group** and enter a group name. 
+- Choose the group you just created from the drop-down menu. Grouping keeps your profiles organized.
 
 ![Alt Text](assets/profile_gifs/Step7.gif)
 
-### Step 8: Save and Launch
+### Step 8: Extra Settings
 
+- The settings for **Free Unblocked Proxy**, **Allow Camera**, and **Fill Language** are set by default.
+- Leave these as they are unless you need to change them.
+- 
 ![Alt Text](assets/profile_gifs/Step8.gif)
+
+### Step 9: Review and Save
+
+- Check all your settings.
+- Click **Create Profile** in the profile summary tab to finish setting up your profile.
