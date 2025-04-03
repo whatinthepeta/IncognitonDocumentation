@@ -13,20 +13,20 @@ Before diving in, ensure you have a clear idea of the profile’s purpose. Wheth
 - Open Incognition browser.
 - Click on the Profiles tab from the main menu.
 
-![Alt Text](assets/profile_photos/image1.png)
+![Alt Text](assets/profile_gifs/Step1.gif)
 
 ### Step 2: Create a New Profile
 
 - Click the "Create New Profile" button.
 - Enter a clear, descriptive name for your profile.
 
-![Alt Text](assets/profile_photos/image2.png)
+![Alt Text](assets/profile_gifs/Step2.gif)
 
 ### Step 3: Basic Configuration
 
 - Timezone: Set this to match your IP by making sure the switch is switched on
 
-![Alt Text](assets/profile_photos/image3.png)
+![Alt Text](assets/profile_gifs/Step3.gif)
 
 ### Step 4: Advanced Configuration
 
@@ -35,13 +35,27 @@ Before diving in, ensure you have a clear idea of the profile’s purpose. Wheth
 - WebRTC: Configure this to disable or mask your real IP address.
 - Fingerprinting Protection: Enable fingerprinting protections to prevent unique identification.
 
+![Alt Text](assets/profile_gifs/Step4.gif)
+
 ### Step 5: Proxy Settings
 
 - Select your proxy type (HTTP, SOCKS5).
 - Enter your proxy IP address, port, username, and password if required.
 - Click Test Proxy to ensure your settings are correct.
 
+![Alt Text](assets/profile_gifs/Step5.gif)
+
 ### Step 6: Save and Launch
 
 - After verifying your settings, click "Save".
 - Launch the profile to confirm everything is working as expected.
+
+![Alt Text](assets/profile_gifs/Step6.gif)
+
+### Step 7: Save and Launch
+
+![Alt Text](assets/profile_gifs/Step7.gif)
+
+### Step 8: Save and Launch
+
+![Alt Text](assets/profile_gifs/Step8.gif)
