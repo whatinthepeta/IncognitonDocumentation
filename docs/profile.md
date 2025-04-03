@@ -24,9 +24,9 @@ Before diving in, ensure you have a clear idea of the profile’s purpose. Wheth
 
 ### Step 3: Basic Configuration
 
-- Timezone: Set this to match your proxy’s geographic location.
-- Screen Resolution: Choose a resolution matching your monitor or desired emulation.
-- Language: Set your preferred browser language.
+- Timezone: Set this to match your IP by making sure the switch is switched on
+
+![Alt Text](assets/profile_photos/image3.png)
 
 ### Step 4: Advanced Configuration
 
