@@ -31,7 +31,8 @@ Select the correct connection type that matches what your provider has supplied 
 
 ### 2. Naming Your Proxy
 
-Type a clear naming convention for your proxy to make it easier for you to distinguish between multiple proxies when your collection grows. #### <span style="color: purple;">While you can use any naming system, we recommend including key identifying information such as: location, associated profile, and/or operating system.</span>
+Type a clear naming convention for your proxy to make it easier for you to distinguish between multiple proxies when your collection grows. 
+   #### <span style="color: purple;">While you can use any naming system, we recommend including key identifying information such as: location, associated profile, and/or operating system.</span>
 
 ![Alt Text](assets/gifs/ScreenRecording2025-04-02183058-ezgif.com-video-to-gif-converter.gif)
 
