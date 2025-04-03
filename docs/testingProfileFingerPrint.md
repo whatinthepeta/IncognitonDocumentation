@@ -46,12 +46,12 @@ From "Profile Management", click "Start" on the right hand side from the profile
  2. Repeat this step with another profile or outside of Incogniton on your regular browser. 
 
     #### <span style="color: green;">Success Indicator</span>
-    #### <span style="color: purple;">The goal is for you to be unique among their database on each test you repeat. You should see a message in green text stating <span style="color: green;">"Yes! You are unique among the 3500000 fingerprints in our entire dataset."</span> This confirms your fingerprint isn't matched with any other fingerprint in your system, proving your anti-detection profile is working correctly.</span>
+    #### <span style="color: green;">The goal is for you to be unique among their database on each test you repeat. You should see a message in green text stating "Yes! You are unique among the 3500000 fingerprints in our entire dataset." This confirms your fingerprint isn't matched with any other fingerprint in your system, proving your anti-detection profile is working correctly.</span>
 
     ![Alt Text](assets/Screenshot 2025-04-03 044801.png)
 
     #### <span style="color: red;">Fail Indicator</span>
-    #### <span style="color: purple;">A failed test will look something like <span style="color: red;">"No! You are not unique among the 3500000 fingerprints in our entire dataset."</span> This indicates you have been identfied somewhere else.</span>
+    #### <span style="color: red;">A failed test will look something like "No! You are not unique among the 3500000 fingerprints in our entire dataset." This indicates you have been identfied somewhere else.</span>
 
     ![Alt Text](assets/Screenshot-2025-04-03-030230.png)
 
