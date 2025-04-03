@@ -13,10 +13,14 @@ Before diving in, ensure you have a clear idea of the profile’s purpose. Wheth
 - Open Incognition browser.
 - Click on the Profiles tab from the main menu.
 
+![Alt Text](assets/profile_photos/image1.png)
+
 ### Step 2: Create a New Profile
 
 - Click the "Create New Profile" button.
 - Enter a clear, descriptive name for your profile.
+
+![Alt Text](assets/profile_photos/image2.png)
 
 ### Step 3: Basic Configuration
 
