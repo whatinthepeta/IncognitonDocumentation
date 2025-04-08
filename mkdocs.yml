@@ -6,3 +6,16 @@ theme:
   palette:
     scheme: white
     primary: purple
+
+
+nav:
+  - Home: "home.md"
+  - Profile Setup: "profile.md"
+  - Proxy Management: "proxy.md"
+  - Testing Profile FingerPrint: "testingProfileFingerPrint.md"
+  - Troubleshooting: "troubleshooting.md"
+  - Glossary: "glossary.md"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
