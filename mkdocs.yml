@@ -9,7 +9,7 @@ theme:
 
 
 nav:
-  - Home: "home.md"
+  - Home: "index.md"
   - Profile Setup: "profile.md"
   - Proxy Management: "proxy.md"
   - Testing Profile FingerPrint: "testingProfileFingerPrint.md"
