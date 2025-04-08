@@ -1,4 +1,4 @@
-# Testing Profile FingerPrint
+# Testing Profile Fingerprint
 
 ## Overview
 
