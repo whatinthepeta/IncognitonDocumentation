@@ -12,7 +12,7 @@ nav:
   - Home: "index.md"
   - Profile Setup: "profile.md"
   - Proxy Management: "proxy.md"
-  - Testing Profile FingerPrint: "testingProfileFingerPrint.md"
+  - Testing Profile Fingerprint: "testingProfileFingerPrint.md"
   - Troubleshooting: "troubleshooting.md"
   - Glossary: "glossary.md"
 
