@@ -1,0 +1,683 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://incognitondocs.com/testingProfileFingerPrint/">
+      
+      
+        <link rel="prev" href="../proxy/">
+      
+      
+        <link rel="next" href="../troubleshooting/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>Testing Profile Fingerprint - Incogniton Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="white" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#testing-profile-fingerprint" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Incogniton Documentation" class="md-header__button md-logo" aria-label="Incogniton Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo/incognitonlogo-removebg-preview.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Incogniton Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Testing Profile Fingerprint
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Incogniton Documentation" class="md-nav__button md-logo" aria-label="Incogniton Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo/incognitonlogo-removebg-preview.png" alt="logo">
+
+    </a>
+    Incogniton Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../profile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Profile Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proxy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proxy Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Testing Profile Fingerprint
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing Profile Fingerprint
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-proxy-location-from-inside-incogniton" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing proxy location from inside Incogniton
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failed-proxy-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      Failed proxy location
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-your-browser-location-on-google-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing your browser location on Google Maps
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-your-fingerprint-on-amiunique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing your fingerprint on AmIunique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-proxy-location-from-inside-incogniton" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing proxy location from inside Incogniton
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failed-proxy-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      Failed proxy location
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-your-browser-location-on-google-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing your browser location on Google Maps
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-your-fingerprint-on-amiunique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing your fingerprint on AmIunique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="testing-profile-fingerprint">Testing Profile Fingerprint</h1>
+<h2 id="overview">Overview</h2>
+<p>This section will guide you through testing your Incogniton profile setup to ensure your online anonymity. We'll verify through 3 tests that your proxies are correctly configured through Incognitons profile settings, confirm your location appears as intended on Google Maps, and validate that your browser fingerprint remains unique across web fingerprint tests. These verification steps are crucial to maintaining separate, undetectable digital fingerprints across multiple accounts and ensuring websites cannot link your various profiles and local computer together.</p>
+<h2 id="testing-proxy-location-from-inside-incogniton">Testing proxy location from inside Incogniton</h2>
+<ol>
+<li>
+<p>Navigate over to "Profile Management"</p>
+</li>
+<li>
+<p>Choose the profile you want to test and click the three dots on the right (⋮) </p>
+</li>
+<li>
+<p>From the dropdown, click the top choice "Edit".</p>
+</li>
+<li>
+<p>Click "Proxy" on the left side bar.</p>
+<p><img alt="Alt Text" src="../assets/gifs/ScreenRecording2025-04-03034205-ezgif.com-video-to-gif-converter.gif" /></p>
+</li>
+<li>
+<p>Click the purple box near the bottom of the screen called "Check Proxy". </p>
+<p><strong><span style="color: purple;">It will list out all of the information about where the proxy is located on the top right corner of the screen.</span></strong>   </p>
+<p><img alt="Alt Text" src="../assets/gifs/Untitledvideo-MadewithClipchamp5-ezgif.com-video-to-gif-converter.gif" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success Indicator</p>
+<p>If the proxy location matches your expected location, congratulations! Incogniton has correctly identified your proxy location.</p>
+<p><img alt="Alt Text" src="../assets/gifs/Screenshot2025-04-07203521.png" /></p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Fail Indicator</p>
+<p>If the proxy location doesn't match your expected location, refer to the selection below <strong>Failed proxy location</strong>. If that doesn't work, contact your proxy provider</span></p>
+<p><img alt="Alt Text" src="../assets/gifs/Screenshot%202025-04-07%20203953.png" /></p>
+</div>
+</li>
+</ol>
+<h2 id="failed-proxy-location">Failed proxy location</h2>
+<p>If the proxy location isn't correct from <strong>Testing proxy location from inside Incogniton</strong>, </p>
+<ol>
+<li>
+<p>Hover over the "Main provider" dropdown and switch providers.</p>
+</li>
+<li>
+<p>Click the purple box near the bottom of the screen called "Check Proxy".</p>
+</li>
+<li>
+<p>Repeat steps 1 and 2 until the correct location appears.</p>
+<p><strong><span style="color: purple;">Incogniton uses third-party providers to check proxy locations, and sometimes, they incorrectly identify your location.</span></strong></p>
+<p><img alt="Alt Text" src="../assets/gifs/Untitledvideo-MadewithClipchamp4-ezgif.com-video-to-gif-converter.gif" /></p>
+</li>
+</ol>
+<h2 id="testing-your-browser-location-on-google-maps">Testing your browser location on Google Maps</h2>
+<ol>
+<li>
+<p>From "Profile Management", click "Start" on the right hand side of the profile you want to test.</p>
+<p><img alt="Alt Text" src="../assets/gifs/ScreenRecording2025-04-03041219-ezgif.com-video-to-gif-converter.gif" /></p>
+</li>
+<li>
+<p>Type "googlemaps.com" into the search bar of the browser and visit the site. </p>
+<p><img alt="Alt Text" src="../assets/gifs/Recording2025-04-03044353-ezgif.com-cut.gif" /></p>
+</li>
+<li>
+<p>Click the target icon labeled "Show your Location" in the bottom right corner of the screen. </p>
+</li>
+<li>
+<p>Click the middle dropdown option "Allow this time" near the top left of the screen.</p>
+<p><img alt="Alt Text" src="../assets/gifs/Recording2025-04-03044353-ezgif.com-cut%20%281%29.gif" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success Indicator</p>
+<p>If your proxy location is in the area you expect it to be, you have verified your browser paired with your proxy is working correctly!</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Fail Indicator</p>
+<p>If your proxy location isn't in the area you expected it to be, contact your proxy provider or try <strong>Testing proxy location from inside Incogniton</strong> if haven't haven't already.</p>
+</div>
+</li>
+</ol>
+<h2 id="testing-your-fingerprint-on-amiunique">Testing your fingerprint on AmIunique</h2>
+<ol>
+<li>
+<p>From "Profile Management", click "Start" on the right hand side of the profile you want to test.</p>
+<p><img alt="Alt Text" src="../assets/gifs/ScreenRecording2025-04-03041219-ezgif.com-video-to-gif-converter.gif" /></p>
+</li>
+<li>
+<p>Type "amiunique.org" into the search bar of the browser and visit the site. </p>
+<p><img alt="Alt Text" src="../assets/gifs/Recording2025-04-03042701-ezgif.com-cut.gif" /></p>
+</li>
+<li>
+<p>Click the first button toward the lower left of the screen called "SEE MY FINGERPRINT" and wait roughly up to 15 seconds for the results to load.</p>
+<p><img alt="Alt Text" src="../assets/gifs/ScreenRecording2025-04-07165914-ezgif.com-video-to-gif-converter.gif" /></p>
+</li>
+<li>
+<p>Repeat step 3. with all your profiles. </p>
+<p><img alt="Alt Text" src="../assets/gifs/Screenshot2025-04-07165402.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success Indicator</p>
+<p>The goal is for you to be unique among their database on each test you repeat. This confirms your fingerprint isn't matched with any other fingerprint in your system, proving your anti-detection profile is working correctly.</p>
+<p><img alt="Alt Text" src="../assets/gifs/Screenshot%202025-04-03%20044801.png" /></p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Fail Indicator</p>
+<p>A failed test indicates that your profile has been identified elsewhere, meaning it has been associated with another profile on your computer and has therefore been detected.</span></p>
+<p><img alt="Alt Text" src="../assets/gifs/Screenshot-2025-04-03-030230.png" /></p>
+</div>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>By thoroughly testing your proxy configuration and browser fingerprint through the steps above, you've ensured your Incogniton profiles are properly set up for maximum anonymity. Checking proxy settings, confirming location accuracy in Google Maps, and validating uniqueness on AmIUnique provide confidence in the integrity of cross-profile tracking and identification. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
