@@ -66,7 +66,7 @@ If the proxy location isn't correct from **Testing proxy location from inside In
 
 4. Click the middle dropdown option "Allow this time" near the top left of the screen.
 
-    ![Alt Text](assets/Recording2025-04-03044353-ezgif.com-cut (1).gif)
+    ![Alt Text](assets/gifs/Recording2025-04-03044353-ezgif.com-cut (1).gif)
 
     !!! success "Success Indicator"
         If your proxy location is in the area you expect it to be, you have verified your browser paired with your proxy is working correctly!

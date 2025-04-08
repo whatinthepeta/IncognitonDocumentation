@@ -8,7 +8,7 @@ Incogniton's anti-detect browser offers powerful proxy management capabilities t
 
 1. Navigate over to the "Proxy Management" tab on the left hand side of the home screen.
 
-    ![Alt Text](assets/ScreenRecording2025-04-03021955-ezgif.com-cut.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-03021955-ezgif.com-cut.gif)
 
 2. From inside the Proxy Management tab, Click on the "Groups" option in the left sidebar
 
@@ -19,26 +19,26 @@ Incogniton's anti-detect browser offers powerful proxy management capabilities t
 
     **<span style="color: purple;">For Example: "US Location"  "Facebook Accounts"  "Windows OS"</span>**
 
-    ![Alt Text](assets/ScreenRecording2025-04-02190313-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02190313-ezgif.com-video-to-gif-converter.gif)
 
 
 ## Create a new proxy
 1. From the "Proxy Management" tab, click the button "New Proxy" near the top right corner.
     
-    ![Alt Text](assets/ScreenRecording2025-04-03021955-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-03021955-ezgif.com-video-to-gif-converter.gif)
 
 
 2. Select your proxies connection type from the "Connection type:" dropdown.
 
     **<span style="color: purple;">Your proxy provider will have specified whether you have an HTTP, SOCKS4, or a SOCKS5 connection type.</span>**
 
-    ![Alt Text](assets/ScreenRecording2025-04-02183003-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02183003-ezgif.com-video-to-gif-converter.gif)
 
 1. Click and type in a clear naming convention for your proxy under the "Name" field. 
 
     **<span style="color: purple;">This will make it easier for you to distinguish between multiple proxies when your collection grows.**
 
-    ![Alt Text](assets/ScreenRecording2025-04-02183058-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02183058-ezgif.com-video-to-gif-converter.gif)
 
 
 1. Enter the proxy's IP address under the "Proxy: (ip:port)" field.
@@ -47,30 +47,30 @@ Incogniton's anti-detect browser offers powerful proxy management capabilities t
 
     **<span style="color: purple;">For example: "123.45.67.89:"</span>**
 
-    ![Alt Text](assets/ScreenRecording2025-04-02184508-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02184508-ezgif.com-video-to-gif-converter.gif)
 
 6. Enter the proxy's port number in the "Proxy: (ip:port)" field after your IP address and a colon, without any spaces.
 
     **<span style="color: purple;">Your completed entry should look like "123.45.67.89:8080" where 8080 is the port number provided by your proxy service.</span>**
 
-    ![Alt Text](assets/ScreenRecording2025-04-02184819-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02184819-ezgif.com-video-to-gif-converter.gif)
 
 
 1. Enter the proxy's username in the designated "Proxy username" field.
 
-    ![Alt Text](assets/ScreenRecording2025-04-02184929-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02184929-ezgif.com-video-to-gif-converter.gif)
 
 
 1. Enter the proxy's password in the designated "Proxy password" field.
 
-    ![Alt Text](assets/ScreenRecording2025-04-02185041-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02185041-ezgif.com-video-to-gif-converter.gif)
 
     
 1. Select a group for the proxy from the "Group" dropdown.
 
     **<span style="color: purple;">Placing each proxy in the appropriate category ensures efficient organization as your collection grows.</span>**
 
-    ![Alt Text](assets/ScreenRecording2025-04-02190518-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/ScreenRecording2025-04-02190518-ezgif.com-video-to-gif-converter.gif)
 
 ## Configure Rotating Proxies (If Applicable)
 
@@ -80,7 +80,7 @@ If you have purchased a "rotating proxy" that constantly changes locations.
 
 2. (Optional) Enter the proxy rotation API url into the designated "Proxy Rotation API URL:" field.
 
-    ![Alt Text](assets/Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif)
 
 ## Test proxy connection
  
@@ -88,7 +88,7 @@ If you have purchased a "rotating proxy" that constantly changes locations.
 
     **<span style="color: purple;">The results will appear on the right side of the button showing your proxy's connection status. This is to verify that your proxy is functioning correctly. Double-check your IP address, port number, username, and password entries for accuracy.</span>**
  
-    ![Alt Text](assets/Untitledvideo-MadewithClipchamp3-ezgif.com-video-to-gif-converter.gif)
+    ![Alt Text](assets/gifs/Untitledvideo-MadewithClipchamp3-ezgif.com-video-to-gif-converter.gif)
 
 ## Save proxy configuration
 
@@ -97,7 +97,7 @@ If you have purchased a "rotating proxy" that constantly changes locations.
 
 2. Click the "Save proxies" button located at the bottom right hand of the panel.
 
-![Alt Text](assets/ScreenRecording2025-04-02191947-ezgif.com-video-to-gif-converter.gif)
+![Alt Text](assets/gifs/ScreenRecording2025-04-02191947-ezgif.com-video-to-gif-converter.gif)
 
 ## Conclusion
 
